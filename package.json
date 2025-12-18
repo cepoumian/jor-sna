@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "start:local": "next start -p 4004",
+    "analyze": "ANALYZE=true npm run build",
     "lint": "eslint"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^16.0.10",
     "next": "16.0.10",
     "react": "19.2.1",
     "react-dom": "19.2.1"
